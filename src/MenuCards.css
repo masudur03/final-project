@@ -1,0 +1,34 @@
+.menucards {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+}
+
+.menucards img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* Adjust margin to make the image closer to the elements */
+}
+
+.menucards h3 {
+    margin-bottom: 5px;
+    /* Adjust margin to make the title closer to the price */
+}
+
+.price {
+    color: orange;
+}
+
+.menucards h4 {
+    margin: 5px 0;
+    /* Adjust margin for price and order text */
+}
+
+.menucards p {
+    max-width: 300px;
+    margin: 10px 0;
+    /* Adjust margin for description */
+}

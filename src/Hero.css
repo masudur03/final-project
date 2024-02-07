@@ -1,0 +1,60 @@
+.hero {
+    background-color: #495E57;
+}
+
+.hero section {
+    display: flex;
+    align-items: center;
+}
+
+.hero section article {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+.tittle {
+    color: #f4ce14;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.hero p {
+    color: white;
+    margin-top: 0;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+
+}
+
+.hero__right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 280px;
+
+
+}
+
+.hero img {
+    border-radius: 10px;
+    max-height: 400px;
+    width: auto;
+}
+
+.hero button {
+    border-radius: 10px;
+    min-height: 30px;
+    background-color: #f4ce14;
+}
