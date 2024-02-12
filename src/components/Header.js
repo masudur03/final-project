@@ -12,7 +12,7 @@ function Header() {
             <div className="header__right">
                 <nav>
                     <ul>
-                        <li> <NavLink to="/"> Home</NavLink></li>
+                        <li> <NavLink to="/little-lemon"> Home</NavLink></li>
                         <li> <NavLink to="/reserve"> Reserve</NavLink></li>
                         <li> <NavLink to="/online-menu"> Menu</NavLink></li>
                         <li> <NavLink to="/about"> About</NavLink></li>
