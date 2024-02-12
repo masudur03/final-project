@@ -1,0 +1,13 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.testimonial__cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}

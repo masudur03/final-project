@@ -1,0 +1,11 @@
+.testimonialcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.testimonialcard>* {
+    margin: 0.3rem 0;
+
+}

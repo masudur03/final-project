@@ -1,0 +1,13 @@
+.bottom img {
+    height: 100px;
+    padding: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__right {
+    align-items: flex-end;
+}

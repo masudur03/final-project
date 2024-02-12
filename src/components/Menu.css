@@ -18,3 +18,7 @@
     min-height: 30px;
     background-color: #f4ce14;
 }
+
+.nav-link {
+    text-decoration: none;
+}

@@ -47,13 +47,20 @@
 
 }
 
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
 .hero img {
     border-radius: 10px;
     max-height: 400px;
     width: auto;
 }
 
+
 .hero button {
+
     border-radius: 10px;
     min-height: 30px;
     background-color: #f4ce14;

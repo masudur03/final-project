@@ -8,6 +8,7 @@
 .menucards img {
     width: 200px;
     height: 200px;
+    object-fit: cover;
     margin-bottom: 10px;
     border-radius: 10px;
     /* Adjust margin to make the image closer to the elements */
@@ -31,4 +32,9 @@
     max-width: 300px;
     margin: 10px 0;
     /* Adjust margin for description */
+}
+
+.order:hover {
+    cursor: pointer;
+    color: #F4CE14;
 }

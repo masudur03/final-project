@@ -1,30 +1,30 @@
+
 import './App.css';
-import Header from './Header';
-import Hero from './Hero';
-import Menu from './Menu';
-import Testimonial from './Testimonial';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Home from './pages/Home';
+import Reserve from './pages/Reserve';
+import ReserveComplete from './pages/ReserveComplete';
+import OnlineMenu from './pages/OnlineMenu';
+import Bottom from './components/Bottom';
+import About from './pages/About';
+
 function App() {
   return (
-    <div className="App">
-      <header>
-        <Header />
-      </header>
-      <main>
-        <section className='reserve_section'>
-          <Hero />
-        </section>
-        <section className='menu_section'>
-          <Menu />
-        </section>
-        <section className='testimonianl_section'>
-          <Testimonial />
-        </section>
-      </main>
-      <footer>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/reserve' element={<Reserve />} />
+        <Route path='/reserve-complete' element={<ReserveComplete />} />
+        <Route path='/online-menu' element={<OnlineMenu />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+      <div className='footer'>
+        <Bottom />
+      </div>
+    </BrowserRouter>
 
-      </footer>
-
-    </div>
   );
 }
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import { NavLink } from 'react-router-dom'
 function Hero() {
     return (
         <div className='hero'>
@@ -7,10 +8,13 @@ function Hero() {
                 <article className='hero__left'>
                     <h1 className='tittle'>Little Lemon</h1>
                     <h3>Chicago</h3>
-                    <p>fsdafsdf sdsdfsdsdfsdsdfsdsdfsdsdfsdsdfsdsdfsdsdfsdsdf fsdf
-                        sdf sdf sdf d sdf sdf sdddddd fdfsdf dfd fdsfsdfsd fsdf sdf sdf sdfsdfsdfsdfsdf</p>
+                    <p>Welcome to Little Lemon - A culinary journey through the vibrant flavors of the Mediterranean. Nestled in the heart of Chicago, our restaurant invites you to experience the essence of Mediterranean cuisine in every bite. </p>
                     <div class="reserve_button">
-                        <button href="">Reserve a table</button>
+                        <button>
+                            <NavLink to="/reserve" className='nav-link'>
+                                Reserve a table
+                            </NavLink>
+                        </button>
                     </div>
                 </article>
                 <article className='hero__right'>

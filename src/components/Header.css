@@ -1,0 +1,50 @@
+.header {
+    margin-top: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+
+.header__left {
+    align-self: center;
+}
+
+.header__left>img {
+    object-fit: contain;
+    height: 40px;
+    max-width: 140px;
+    margin-left: 5px;
+}
+
+nav {
+    background-color: #495E57;
+    border-radius: 5px;
+
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+
+}
+
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+nav a {
+    font-size: large;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+nav a:hover {
+    color: #F4CE14;
+}
