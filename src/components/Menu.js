@@ -7,7 +7,7 @@ function Menu() {
         <div className='menu'>
             <section className='menu__header'>
                 <h1>This weeks specials!</h1>
-                <button>
+                <button type='button'>
                     <NavLink to="/online-menu" className='nav-link'>
                         Online Menu
                     </NavLink>

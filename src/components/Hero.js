@@ -10,7 +10,7 @@ function Hero() {
                     <h3>Chicago</h3>
                     <p>Welcome to Little Lemon - A culinary journey through the vibrant flavors of the Mediterranean. Nestled in the heart of Chicago, our restaurant invites you to experience the essence of Mediterranean cuisine in every bite. </p>
                     <div class="reserve_button">
-                        <button>
+                        <button type='button'>
                             <NavLink to="/reserve" className='nav-link'>
                                 Reserve a table
                             </NavLink>

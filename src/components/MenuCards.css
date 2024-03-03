@@ -11,12 +11,19 @@
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 10px;
-    /* Adjust margin to make the image closer to the elements */
+    overflow: hidden;
+}
+
+.menucards img {
+    transition: transform .5s ease;
+}
+
+.menucards:hover img {
+    transform: scale(1.3);
 }
 
 .menucards h3 {
     margin-bottom: 5px;
-    /* Adjust margin to make the title closer to the price */
 }
 
 .price {
@@ -25,13 +32,11 @@
 
 .menucards h4 {
     margin: 5px 0;
-    /* Adjust margin for price and order text */
 }
 
 .menucards p {
     max-width: 300px;
     margin: 10px 0;
-    /* Adjust margin for description */
 }
 
 .order:hover {

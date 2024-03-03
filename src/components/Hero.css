@@ -60,8 +60,16 @@
 
 
 .hero button {
-
-    border-radius: 10px;
-    min-height: 30px;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
     background-color: #f4ce14;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: darkgoldenrod;
 }
