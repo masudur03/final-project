@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# click on the link below to view my project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://masudur03.github.io/little-lemon]
+
 
 ## Available Scripts
 
